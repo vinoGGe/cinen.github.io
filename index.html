@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loading Video...</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0f0f0f;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  color:#fff;
+}
+
+/* CONTAINER */
+.box{
+  width:90%;
+  max-width:420px;
+  background:#1c1c1c;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* THUMBNAIL */
+.thumb{
+  position:relative;
+}
+
+.thumb img{
+  width:100%;
+  display:block;
+}
+
+/* PLAY BUTTON */
+.play{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:70px;
+  height:70px;
+  background:rgba(255,255,255,0.9);
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.play:after{
+  content:'';
+  border-left:20px solid black;
+  border-top:12px solid transparent;
+  border-bottom:12px solid transparent;
+}
+
+/* LOADING */
+.loading{
+  padding:20px;
+  text-align:center;
+}
+
+.bar{
+  width:100%;
+  height:6px;
+  background:#333;
+  border-radius:10px;
+  overflow:hidden;
+  margin-top:10px;
+}
+
+.progress{
+  height:100%;
+  width:0%;
+  background:linear-gradient(90deg,#00ffcc,#00aaff);
+  animation:load 3s linear forwards;
+}
+
+@keyframes load{
+  from{width:0%;}
+  to{width:100%;}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  
+  <div class="thumb">
+    <img src="https://cdn.aceimg.com/f7b97742c.jpg">
+    <div class="play"></div>
+  </div>
+
+  <div class="loading">
+    <div>Loading video...</div>
+    <div class="bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+setTimeout(function(){
+  window.location.href="https://www.profitablecpmratenetwork.com/nxhiyfe8u9?key=29786ea5f9fc6581e9b50ef47a13284c";
+},3000);
+</script>
+
+</body>
+</html>
